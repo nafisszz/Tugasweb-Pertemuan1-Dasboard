@@ -10,26 +10,17 @@
     <meta property="og:title" content="Nafis Fauzan | Landing Page Pribadi">
     <meta property="og:description" content="Profil, pendidikan, keahlian, hobi, dan kontak Nafis Fauzan, mahasiswa Ilmu Komputer.">
     <meta property="og:type" content="website">
-
-    <link rel="stylesheet" href="style.css">
+    <meta property="og:locale" content="id_ID">
 </head>
 <body>
 
     <!-- ===== HEADER & NAVIGASI ===== -->
-    <header class="site-header">
-    <div class="header-inner">
-        <a href="#beranda" class="logo">
-            <span class="logo-badge">NF</span>
-            <span class="logo-text">Nafis<span class="accent">.Fauzan</span></span>
+    <header>
+        <a href="#beranda">
+            <strong>NF</strong> Nafis.Fauzan
         </a>
 
-        <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mainNav">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </button>
-
-        <nav id="mainNav" class="main-nav" aria-label="Navigasi utama">
+        <nav aria-label="Navigasi utama">
             <ul>
                 <li><a href="#beranda">Beranda</a></li>
                 <li><a href="#tentang">Tentang Saya</a></li>
@@ -38,211 +29,211 @@
                 <li><a href="#kontak">Kontak</a></li>
             </ul>
         </nav>
-    </div>
-</header>
+    </header>
 
     <main>
         <!-- ===== SECTION BERANDA / HERO ===== -->
-        <section id="beranda" class="hero">
-            <div class="hero-glow" aria-hidden="true"></div>
+        <section id="beranda">
+            <h1>Halo, saya Nafis Fauzan</h1>
+            <p>Mahasiswa Ilmu Komputer &middot; Universitas Negeri Medan &middot; Semester 3</p>
+            <p>
+                Saya tertarik pada dunia jaringan komputer dan pengembangan web dasar.
+                Sedang membangun kemampuan troubleshooting jaringan sekaligus belajar HTML dan CSS
+                untuk membuat tampilan web yang rapi dan fungsional.
+            </p>
+            <p>
+                <a href="#tentang">Tentang Saya</a> |
+                <a href="#kontak">Hubungi Saya</a>
+            </p>
 
-            <div class="hero-text">
-                <h2 class="hero-eyebrow">Beranda</h2>
-                <h1>Halo, saya Nafis Fauzan</h1>
-                <p class="hero-status">Mahasiswa Ilmu Komputer &middot; Universitas Negeri Medan &middot; Semester 3</p>
-                <p class="hero-desc">
-                    Saya tertarik pada dunia jaringan komputer dan pengembangan web dasar.
-                    Sedang membangun kemampuan troubleshooting jaringan sekaligus belajar HTML dan CSS
-                    untuk membuat tampilan web yang rapi dan fungsional.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#tentang" class="btn btn-primary">Tentang Saya</a>
-                    <a href="#kontak" class="btn btn-secondary">Hubungi Saya</a>
-                </div>
-            </div>
-
-            <div class="hero-image">
-                <img src="profile.jpg" alt="Foto profil Nafis Fauzan, mahasiswa Ilmu Komputer Universitas Negeri Medan" width="300" height="300">
-            </div>
+            <figure>
+                <img src="profile.jpg" alt="Foto profil Nafis Fauzan, mahasiswa Ilmu Komputer Universitas Negeri Medan" width="280" height="280">
+                <figcaption>Foto profil, diambil di Medan</figcaption>
+            </figure>
         </section>
 
         <!-- ===== SECTION TENTANG SAYA ===== -->
-        <section id="tentang" class="section-block">
-    <h2>Tentang Saya</h2>
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
 
-    <article class="about-article">
-        <h3>Perkenalan Singkat</h3>
-        <p>
-            Nama saya Nafis Fauzan, lahir di Medan pada
-            <time datetime="2006-10-16">16 Oktober 2006</time>.
-            Saya adalah mahasiswa semester 3 Program Studi Ilmu Komputer di
-            Universitas Negeri Medan, mulai berkuliah sejak tahun 2025.
-        </p>
-        <p>
-            Saya memiliki minat pada bidang jaringan komputer, khususnya
-            troubleshooting jaringan, serta sedang memperdalam dasar-dasar
-            pengembangan web menggunakan HTML dan CSS.
-        </p>
-        <p>
-            Tujuan saya belajar teknologi adalah untuk memahami sistem jaringan
-            dan web secara menyeluruh, agar dapat membangun solusi teknis yang
-            bermanfaat dan mudah digunakan oleh banyak orang.
-        </p>
-    </article>
+            <article>
+                <h3>Perkenalan Singkat</h3>
+                <p>
+                    Nama saya Nafis Fauzan, lahir di Medan pada
+                    <time datetime="2006-10-16">16 Oktober 2006</time>.
+                    Saya adalah mahasiswa semester 3 Program Studi Ilmu Komputer di
+                    Universitas Negeri Medan, mulai berkuliah sejak tahun <time datetime="2025">2025</time>.
+                </p>
+                <p>
+                    Saya memiliki minat pada bidang jaringan komputer, khususnya
+                    troubleshooting jaringan, serta sedang memperdalam dasar-dasar
+                    pengembangan web menggunakan HTML dan CSS.
+                </p>
+                <p>
+                    Tujuan saya belajar teknologi adalah untuk memahami sistem jaringan
+                    dan web secara menyeluruh, agar dapat membangun solusi teknis yang
+                    bermanfaat dan mudah digunakan oleh banyak orang.
+                </p>
+            </article>
 
-    <article class="about-article education-article">
-        <h3>Riwayat Pendidikan</h3>
-        <ul class="education-list">
-            <li>
-                <span class="edu-year">2012 &ndash; 2018</span>
-                <span class="edu-name">SD Swasta Pelangi Medan</span>
-            </li>
-            <li>
-                <span class="edu-year">2018 &ndash; 2021</span>
-                <span class="edu-name">SMP Swasta Pertiwi Medan</span>
-            </li>
-            <li>
-                <span class="edu-year">2021 &ndash; 2024</span>
-                <span class="edu-name">SMK Negeri 1 Percut Sei Tuan</span>
-            </li>
-            <li>
-                <span class="edu-year">2025 &ndash; sekarang</span>
-                <span class="edu-name">Ilmu Komputer, Universitas Negeri Medan</span>
-            </li>
-        </ul>
-    </article>
-</section>
+            <article>
+                <h3>Riwayat Pendidikan</h3>
+                <ul>
+                    <li><time datetime="2012">2012</time> &ndash; <time datetime="2018">2018</time>: SD Swasta Pelangi Medan</li>
+                    <li><time datetime="2018">2018</time> &ndash; <time datetime="2021">2021</time>: SMP Swasta Pertiwi Medan</li>
+                    <li><time datetime="2021">2021</time> &ndash; <time datetime="2024">2024</time>: SMK Negeri 1 Percut Sei Tuan</li>
+                    <li><time datetime="2025">2025</time> &ndash; sekarang: Ilmu Komputer, Universitas Negeri Medan</li>
+                </ul>
+            </article>
+        </section>
 
         <!-- ===== SECTION KEAHLIAN ===== -->
-        <section id="keahlian" class="section-block section-alt">
+        <section id="keahlian">
             <h2>Keahlian Saya</h2>
 
-            <div class="card-grid">
-                <article class="card">
-                    <h3>Troubleshooting Jaringan</h3>
-                    <p>Mampu mengidentifikasi dan menangani gangguan jaringan komputer secara dasar hingga menengah.</p>
-                </article>
+            <article>
+                <h3>Troubleshooting Jaringan</h3>
+                <p>Mampu mengidentifikasi dan menangani gangguan jaringan komputer secara dasar hingga menengah.</p>
+            </article>
 
-                <article class="card">
-                    <h3>HTML</h3>
-                    <p>Menulis struktur halaman web yang semantik, rapi, dan mudah dipahami.</p>
-                </article>
+            <article>
+                <h3>HTML</h3>
+                <p>Menulis struktur halaman web yang semantik, rapi, dan mudah dipahami.</p>
+            </article>
 
-                <article class="card">
-                    <h3>CSS</h3>
-                    <p>Menata tampilan web agar modern, konsisten, dan enak dilihat menggunakan CSS murni.</p>
-                </article>
-            </div>
+            <article>
+                <h3>CSS</h3>
+                <p>Menata tampilan web agar modern, konsisten, dan enak dilihat menggunakan CSS murni.</p>
+            </article>
         </section>
 
         <!-- ===== SECTION HOBI ===== -->
-        <section id="hobi" class="section-block">
+        <section id="hobi">
             <h2>Hobi Saya</h2>
 
-            <div class="card-grid">
-                <article class="card">
-                    <h3>Bermain Game</h3>
-                    <p>Menikmati waktu luang dengan bermain game strategi maupun game santai bersama teman.</p>
-                </article>
+            <article>
+                <h3>Bermain Game</h3>
+                <p>Menikmati waktu luang dengan bermain game strategi maupun game santai bersama teman.</p>
+            </article>
 
-                <article class="card">
-                    <h3>Menonton Film atau Anime</h3>
-                    <p>Menyukai cerita dengan alur menarik, baik dari film maupun anime bergenre petualangan.</p>
-                </article>
+            <article>
+                <h3>Menonton Film atau Anime</h3>
+                <p>Menyukai cerita dengan alur menarik, baik dari film maupun anime bergenre petualangan.</p>
+            </article>
 
-                <article class="card">
-                    <h3>Mendengarkan Musik</h3>
-                    <p>Musik menjadi teman saat mengerjakan tugas maupun saat sedang bersantai.</p>
-                </article>
+            <article>
+                <h3>Mendengarkan Musik</h3>
+                <p>Musik menjadi teman saat mengerjakan tugas maupun saat sedang bersantai.</p>
+            </article>
 
-                <article class="card">
-                    <h3>Mempelajari Teknologi</h3>
-                    <p>Selalu penasaran dengan perkembangan teknologi baru, terutama jaringan dan web.</p>
-                </article>
-            </div>
+            <article>
+                <h3>Mempelajari Teknologi</h3>
+                <p>Selalu penasaran dengan perkembangan teknologi baru, terutama jaringan dan web.</p>
+            </article>
         </section>
 
         <!-- ===== ASIDE — INFORMASI TAMBAHAN ===== -->
-        <aside class="info-aside" aria-label="Informasi tambahan">
-            <h2>Sekilas Info</h2>
-            <ul class="info-list">
+        <aside aria-labelledby="infoTitle">
+            <h2 id="infoTitle">Sekilas Info</h2>
+            <ul>
                 <li><strong>Status:</strong> Mahasiswa aktif semester 3, Ilmu Komputer</li>
                 <li><strong>Quote:</strong> &ldquo;Konsisten lebih penting daripada cepat.&rdquo;</li>
                 <li><strong>Tugas:</strong> Dibuat untuk mata kuliah Pemrograman Web</li>
                 <li>
                     <strong>Terakhir diperbarui:</strong>
-                    <time datetime="2026-08-25">25 Agustus 2026</time>
+                    <time datetime="2026-10-14">14 Oktober 2026</time>
                 </li>
             </ul>
         </aside>
 
         <!-- ===== SECTION KONTAK ===== -->
-        <section id="kontak" class="section-block section-alt">
+        <section id="kontak">
             <h2>Hubungi Saya</h2>
-            <p class="contact-desc">Silakan isi form di bawah ini jika ingin berdiskusi atau memberikan masukan.</p>
+            <p>Silakan isi form di bawah ini jika ingin berdiskusi atau memberikan masukan.</p>
 
-            <div class="kontak-wrapper">
-                <ul class="contact-info-list">
-                    <li>
-                        <span class="contact-label">Telepon</span>
-                        <span>0815 3425 2839</span>
-                    </li>
-                    <li>
-                        <span class="contact-label">Email</span>
-                        <span>fnafis16@gmail.com</span>
-                    </li>
-                    <li>
-                        <span class="contact-label">Alamat</span>
-                        <span>Jl. AR. Hakim Gg. Pendidikan No. 18, Medan</span>
-                    </li>
-                </ul>
+            <h3>Informasi Kontak</h3>
+            <ul>
+                <li>Telepon: <a href="tel:+6281534252839">0815 3425 2839</a></li>
+                <li>Email: <a href="mailto:fnafis16@gmail.com">fnafis16@gmail.com</a></li>
+                <li>Alamat: Jl. AR. Hakim Gg. Pendidikan No. 18, Medan</li>
+            </ul>
 
-                <form class="contact-form" id="contactForm" novalidate>
-                    <div class="form-group">
-                        <label for="nama">Nama</label>
-                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
-                    </div>
+            <h3>Form Pesan</h3>
+            <form id="contactForm" novalidate>
+                <p>
+                    <label for="nama">Nama <abbr title="wajib diisi">*</abbr></label><br>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" minlength="3" required autocomplete="name">
+                </p>
 
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="nama@email.com" required>
-                    </div>
+                <p>
+                    <label for="email">Email <abbr title="wajib diisi">*</abbr></label><br>
+                    <input type="email" id="email" name="email" placeholder="nama@email.com" required autocomplete="email">
+                </p>
 
-                    <div class="form-group">
-                        <label for="pesan">Pesan</label>
-                        <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda di sini" required></textarea>
-                    </div>
+                <p>
+                    <label for="pesan">Pesan <abbr title="wajib diisi">*</abbr></label><br>
+                    <textarea id="pesan" name="pesan" rows="5" cols="40" placeholder="Tulis pesan Anda di sini" minlength="10" required></textarea>
+                </p>
 
-                    <div class="form-group form-group-inline">
-                        <label for="tanggal">Tanggal Diskusi yang Diinginkan</label>
-                        <input type="date" id="tanggal" name="tanggal">
-                    </div>
+                <p>
+                    <label for="tanggal">Tanggal Diskusi yang Diinginkan</label><br>
+                    <input type="date" id="tanggal" name="tanggal">
+                </p>
 
-                    <div class="form-group form-group-inline">
-                        <label for="warna">Warna Favorit</label>
-                        <input type="color" id="warna" name="warna" value="#c99a4b">
-                    </div>
+                <p>
+                    <label for="warna">Warna Favorit</label><br>
+                    <input type="color" id="warna" name="warna" value="#c99a4b">
+                </p>
 
-                    <div class="form-group form-group-inline">
-                        <label for="rating">Tingkat Kepuasan terhadap Website Ini</label>
-                        <input type="range" id="rating" name="rating" min="1" max="10" value="8" aria-describedby="ratingValue">
-                        <output id="ratingValue" for="rating">8</output>
-                    </div>
+                <p>
+                    <label for="rating">Tingkat Kepuasan terhadap Website Ini (1&ndash;10)</label><br>
+                    <input type="range" id="rating" name="rating" min="1" max="10" value="8" aria-describedby="ratingValue">
+                    <output id="ratingValue" for="rating">8</output>
+                </p>
 
-                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                <p>
+                    <button type="submit">Kirim Pesan</button>
+                </p>
 
-                    <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
-                </form>
-            </div>
+                <p id="formFeedback" role="status" aria-live="polite"></p>
+            </form>
         </section>
     </main>
 
     <!-- ===== FOOTER ===== -->
-    <footer class="site-footer">
+    <footer>
         <p>&copy; 2026 Nafis Fauzan. Semua Hak Dilindungi.</p>
         <p>Dibuat untuk tugas Pemrograman Web.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Nilai slider kepuasan
+            var ratingInput = document.getElementById("rating");
+            var ratingOutput = document.getElementById("ratingValue");
+
+            ratingInput.addEventListener("input", function () {
+                ratingOutput.textContent = ratingInput.value;
+            });
+
+            // Validasi form
+            var contactForm = document.getElementById("contactForm");
+            var formFeedback = document.getElementById("formFeedback");
+
+            contactForm.addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                if (contactForm.checkValidity()) {
+                    formFeedback.textContent = "Terima kasih! Pesan Anda berhasil dikirim (simulasi).";
+                    contactForm.reset();
+                    ratingOutput.textContent = "8";
+                } else {
+                    formFeedback.textContent = "Mohon lengkapi Nama (min. 3 karakter), Email yang valid, dan Pesan (min. 10 karakter).";
+                    var firstInvalid = contactForm.querySelector(":invalid");
+                    if (firstInvalid) firstInvalid.focus();
+                }
+            });
+        });
+    </script>
 </body>
 </html>
